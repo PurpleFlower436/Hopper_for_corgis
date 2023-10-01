@@ -54,9 +54,9 @@
         android:id="@+id/hotels_with_flexible_cancellation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hotels with flexible cancellation policies are discounting
+        android:text="Hotels with flexible cancellation policies are discounting\n
          stays later this year by up to 50%"
-        app:layout_constraintStart_toStartOf="@id/price_drops_label"
+        app:layout_constraintStart_toStartOf="@id/view_discounts"
         android:textColor="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +76,38 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/hotels_with_flexible_cancellation" />
+
+
+    <Button
+        android:id="@+id/Flights"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/black"
+        android:text="Flights"
+        android:textColor="@color/sky_blue"
+        app:layout_constraintEnd_toEndOf="@id/search_for"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/search_for"
+        app:layout_constraintVertical_bias="0.20"
+        app:layout_constraintTop_toBottomOf="@id/search_for" />
+
+
+    <Button
+        android:id="@+id/Hotels"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hotels"
+
+        android:backgroundTint="@color/black"
+        android:textColor="@color/sky_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.60"
+        app:layout_constraintStart_toStartOf="@id/Flights"
+        app:layout_constraintVertical_bias="0.20"
+        app:layout_constraintTop_toBottomOf="@id/search_for" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
