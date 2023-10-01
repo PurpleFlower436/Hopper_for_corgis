@@ -36,16 +36,31 @@
 
 
     <TextView
+        android:id="@+id/search_for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Search For"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price_drops_label"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.20" />
+
+    <TextView
         android:id="@+id/hotels_with_flexible_cancellation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hotels with flexible cancellation policies are discounting
          stays later this year by up to 50%"
+        app:layout_constraintStart_toStartOf="@id/price_drops_label"
         android:textColor="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.20"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/price_drops_label"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.55" />
@@ -54,11 +69,13 @@
         android:id="@+id/view_discounts"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="View Discounts"
+        android:layout_marginTop="56dp"
         android:backgroundTint="@color/sky_blue"
-        app:layout_constraintTop_toBottomOf="@id/hotels_with_flexible_cancellation"
+        android:text="View Discounts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/hotels_with_flexible_cancellation" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
