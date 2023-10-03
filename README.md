@@ -40,7 +40,7 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the **Hopper** app:
 
-<img src='https://designvault.io/shot/1054-3012222055/' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+<img src='hopper.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
 ## Video Demo
 
